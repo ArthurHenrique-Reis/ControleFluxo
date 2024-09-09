@@ -12,7 +12,7 @@ public class Contador {
         int parametroDois = terminal.nextInt();
 
         try {
-            // Chamando o método contendo a lógica de contagem
+            // Chamando o metodo contendo a lógica de contagem
             contar(parametroUm, parametroDois);
         } catch (ParametrosInvalidosException exception) {
             // Exibindo a mensagem de erro caso a exceção seja lançada
@@ -22,7 +22,7 @@ public class Contador {
         terminal.close();
     }
 
-    // Método que contém a lógica de contagem
+    // Metodo que contém a lógica de contagem
     static void contar(int parametroUm, int parametroDois) throws ParametrosInvalidosException {
         // Valida se o primeiro parâmetro é maior que o segundo e lança a exceção
         if (parametroUm > parametroDois) {
